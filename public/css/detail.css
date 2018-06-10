@@ -1,0 +1,210 @@
+#indexContainer {
+  background-color: #FBF8F8;
+}
+#indexContainer .service-center {
+  width: 1200px;
+  margin: 0 auto;
+  position: relative;
+}
+#indexContainer .service-center h2 {
+  line-height: 85px;
+  width: 1200px;
+  margin: 0 auto;
+  font-size: 18px;
+}
+#indexContainer .service-center h2 span {
+  font-weight: 700;
+}
+#indexContainer .service-center h2 .bright {
+  margin: 0 10px;
+  cursor: pointer;
+  font-style: normal;
+  font-weight: 700;
+}
+#indexContainer .service-center .center_left {
+  width: 960px;
+  float: left;
+  margin-bottom: 50px;
+}
+#indexContainer .service-center .center_left .left_top {
+  cursor: auto;
+  height: 220px;
+  border: 1px solid #e5e5e5;
+  background: #fff;
+}
+#indexContainer .service-center .center_left .left_top img {
+  width: 160px;
+  border: 1px solid #e5e5e5;
+  margin: 30px;
+  float: left;
+  vertical-align: middle;
+}
+#indexContainer .service-center .center_left .left_top .spm {
+  float: left;
+  position: relative;
+  top: 25px;
+}
+#indexContainer .service-center .center_left .left_top .spm i {
+  display: block;
+  line-height: 42px;
+  height: 42px;
+  font-style: normal;
+  font-size: 14px;
+  color: gray;
+}
+#indexContainer .service-center .center_left .left_top .spm i b {
+  font-size: 20px;
+  color: #fc545e;
+  margin-left: 10px;
+  font-weight: 700;
+  font-style: normal;
+}
+#indexContainer .service-center .center_left .left_top .spm i b em {
+  font-size: 14px;
+  font-style: normal;
+}
+#indexContainer .service-center .center_left .left_top .spm i .youhui {
+  border: 1px solid #fb474f;
+  color: #fb474f;
+  font-size: 12px;
+  padding: 0 6px;
+  border-radius: 6px;
+  text-align: center;
+  font-style: normal;
+  margin-left: 10px;
+  height: 24px;
+  line-height: 24px;
+  display: inline-block;
+}
+#indexContainer .service-center .center_left .left_top .spm i .yishou {
+  color: #fb474f;
+  margin-left: 10px;
+  font-style: normal;
+}
+#indexContainer .service-center .center_left .left_top .spm i .oldpic {
+  font-size: 14px;
+  color: #898989;
+  margin-left: 40px;
+  font-weight: normal;
+  display: inline-block;
+  font-style: normal;
+}
+#indexContainer .service-center .center_left .left_top .spm i .oldpic em {
+  text-decoration: line-through;
+  font-size: 14px;
+  font-style: normal;
+}
+#indexContainer .service-center .center_left .left_top .spm i:nth-child(1) {
+  font-size: 18px;
+  color: #1d1515;
+  font-style: normal;
+}
+#indexContainer .service-center .center_left .left_top .spf {
+  float: right;
+  position: relative;
+}
+#indexContainer .service-center .center_left .left_top .spf img {
+  width: 115px;
+}
+#indexContainer .service-center .center_left .left_top .spf b:nth-child(2) {
+  display: block;
+  text-align: center;
+  line-height: 30px;
+  font-size: 16px;
+  font-weight: 700;
+  width: 115px;
+  color: #fb474f;
+  position: absolute;
+  top: 160px;
+  right: 30px;
+}
+#indexContainer .service-center .center_left .left_bottom {
+  clear: both;
+  background: #fff;
+  padding: 30px 20px;
+  border: 1px solid #e5e5e5;
+  margin-top: 10px;
+}
+#indexContainer .service-center .center_left .left_bottom b {
+  border-bottom: 3px solid #fb474f;
+  padding: 5px;
+  margin-top: 10px;
+  width: 66px;
+  display: block;
+  font-weight: 700;
+  font-size: 14px;
+}
+#indexContainer .service-center .center_left .left_bottom p {
+  line-height: 24px;
+  margin: 15px 0 5px;
+  font-size: 14px;
+  color: #333;
+}
+#indexContainer .service-center .center_left .left_bottom p i {
+  margin-left: 20px;
+  font-style: normal;
+}
+#indexContainer .service-center .center_left .left_bottom p i em {
+  color: #fb474f;
+  font-style: normal;
+}
+#indexContainer .service-center .center_right {
+  width: 230px;
+  float: right;
+  position: relative;
+  margin-left: 10px;
+}
+#indexContainer .service-center .center_right .right_wrap {
+  width: 230px;
+  border: 1px solid #e5e5e5;
+  background: #fff;
+  text-align: center;
+  cursor: pointer;
+}
+#indexContainer .service-center .center_right .right_wrap h3 {
+  font-size: 20px;
+  padding-left: 10px;
+  border-bottom: 1px solid #e5e5e5;
+  height: 60px;
+  line-height: 60px;
+  margin: 0;
+  text-align: left;
+}
+#indexContainer .service-center .center_right .right_wrap img {
+  width: 80px;
+  text-align: center;
+  margin: 40px 50px;
+  vertical-align: middle;
+}
+#indexContainer .service-center .center_right .right_wrap .shanghu_name {
+  text-align: center;
+  margin-bottom: 20px;
+  font-weight: bold;
+  padding: 0 10px;
+  line-height: 36px;
+  font-size: 16px;
+}
+#indexContainer .service-center .center_right .right_wrap p {
+  text-align: left;
+  padding: 0 10px;
+  line-height: 36px;
+  margin-bottom: 0;
+  font-size: 16px;
+  color: #333;
+}
+#indexContainer .service-center .center_right .right_wrap p i {
+  float: right;
+  color: #fb474f;
+  font-style: normal;
+}
+#indexContainer .service-center .center_right .right_erweima {
+  width: 230px;
+  height: 290px;
+  background: url(../image/tuijianfuwushang_06.jpg) no-repeat center;
+  margin-top: 10px;
+}
+#indexContainer .service-center .center_right .right_erweima img {
+  width: 130px;
+  margin: 50px 0 0 50px;
+  vertical-align: middle;
+}

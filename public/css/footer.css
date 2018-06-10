@@ -1,0 +1,135 @@
+#indexContainer .footer {
+  width: 100%;
+}
+#indexContainer .footer .footer_top {
+  text-align: center;
+  width: 100%;
+  padding-top: 60px;
+  background: #fff;
+  clear: both;
+}
+#indexContainer .footer .footer_top .footer_name {
+  font-size: 30px;
+  font-family: "微软雅黑";
+  font-weight: 800;
+  color: #333 ;
+  padding-bottom: 10px;
+}
+#indexContainer .footer .footer_top .footer_name > span {
+  color: #fb474f;
+  font-weight: 800;
+}
+#indexContainer .footer .footer_top .footer_title {
+  font-size: 22px;
+  color: #3d3838;
+  margin: 0;
+}
+#indexContainer .footer .footer_top .footer_bao {
+  width: 100%;
+  padding-top: 20px;
+  background: #fff;
+  height: 66px;
+  font-family: "微软雅黑";
+}
+#indexContainer .footer .footer_top .footer_bao .bao_list {
+  width: 420px;
+  margin: 0 auto;
+}
+#indexContainer .footer .footer_top .footer_bao .bao_list .list_item {
+  width: 33%;
+  float: left;
+  text-align: center;
+  color: #1d1515;
+  font-size: 18px;
+}
+#indexContainer .footer .footer_top .footer_bao .bao_list .list_item img {
+  margin-right: 10px;
+  vertical-align: middle;
+  border: 0;
+}
+#indexContainer .footer .footer_top .hot_city {
+  width: 100%;
+  clear: both;
+  padding-top: 50px;
+  height: 170px;
+  background: #fff;
+}
+#indexContainer .footer .footer_top .hot_city dl {
+  width: 1200px;
+  margin: 0 auto;
+}
+#indexContainer .footer .footer_top .hot_city dl dt {
+  float: left;
+  font-family: " 微软雅黑";
+  font-size: 18px;
+  font-weight: bold;
+}
+#indexContainer .footer .footer_top .hot_city dl dd {
+  margin-left: 30px;
+  width: 1090px;
+  line-height: 30px;
+  float: left;
+}
+#indexContainer .footer .footer_top .hot_city dl dd > a:hover {
+  color: red;
+}
+#indexContainer .footer .footer_top .hot_city dl dd a {
+  font-size: 16px;
+  color: #898989;
+  display: inline-block;
+  width: 8%;
+  text-align: center;
+  font-weight: 200;
+  cursor: pointer;
+  font-family: "微软雅黑";
+}
+#indexContainer .footer .footer_top .footer_huoban {
+  width: 100%;
+  height: 150px;
+  text-align: center;
+  padding-top: 50px;
+  clear: both;
+}
+#indexContainer .footer .footer_top .footer_huoban .huoban_name {
+  position: relative;
+  bottom: 20px;
+  text-align: left;
+  font-weight: bold;
+  width: 1200px;
+  margin: 0 auto;
+  background: none;
+  color: #1d1515;
+  font-size: 18px;
+}
+#indexContainer .footer .footer_top .footer_huoban ul {
+  width: 1200px;
+  margin: 0 auto;
+}
+#indexContainer .footer .footer_top .footer_huoban ul li {
+  float: left;
+  width: 10%;
+  height: 60px;
+  text-align: center;
+  background: #fff;
+  margin: 0.5%;
+  line-height: 55px;
+  cursor: pointer;
+}
+#indexContainer .footer .footer_top .footer_huoban ul li img {
+  width: 90px;
+  height: auto;
+}
+#indexContainer .footer .footer_top .footer_beian {
+  height: 40px;
+  line-height: 40px;
+  padding-top: 0;
+  width: 100%;
+  text-align: center;
+  clear: both;
+}
+#indexContainer .footer .footer_top .footer_beian p {
+  width: 1200px;
+  margin: 0 auto;
+  text-align: left;
+  color: #898989;
+}

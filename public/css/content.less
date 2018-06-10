@@ -1,0 +1,305 @@
+#indexContainer{
+  background-color: #FBF8F8;
+  /*轮播图*/
+  .lunbo_content{
+    .lunbo-container{
+      position:relative;
+      width:100%;
+      height:420px;
+      overflow:hidden;
+      .bd{ /*轮播图*/
+        position:relative;
+        height:100%;
+        min-width: 1200px;
+        width: 125%;
+        text-align: center;
+        margin-left: -275px;
+        .img100{
+          display:block;
+          position: absolute;
+          top: 0;
+          left: 0;
+          height: 100%;
+          width: 112%;
+        }
+      }
+      .hd{ /*小圆点*/
+        position:absolute;
+        bottom:20px;
+        left:50%;
+        margin-left:-55px;
+        padding: 0px 25px;
+        height:10px;
+        z-index:10;
+        .bullet{
+          position:relative;
+          float:left;
+          width:10px;
+          height:10px;
+          background:rgba(0,0,0,0.2);
+          margin:0 5px;
+          border-radius:50%;
+          cursor:pointer;
+          z-index:2;
+          &.on{
+            background-color:#fff;
+          }
+        }
+      }
+      .listNav{
+        width: 200px;
+        position: relative;
+        bottom: 422px;
+        margin: 0 auto;
+        z-index: 998;
+        .nav{
+          width: 180px;
+          position: absolute;
+          left: -470px;
+          background-color: black;
+          .navList{
+            width: 180px;
+            background: #757881;
+            height: 420px;
+            margin-top: 2px;
+            position: relative;
+            .list_item{
+              height: 42px;
+              line-height: 42px;
+              color: #fff;
+              font-size: 16px;
+              position: relative;
+              font-weight: bold;
+              cursor: pointer;
+              padding-left: 45px;
+              a{
+                position: absolute;
+                display: block;
+                width: 100%;
+                height: 100%;
+                top: 0;
+                left: 0;
+              }
+              i{
+                display: inline-block;
+                width: 70px;
+                text-align: justify;
+                text-align-last: justify;
+                font-style: normal;
+                font-weight: bold;
+                vertical-align: middle;
+              }
+              img{
+                display: block;
+                position: absolute;
+                right: 35px;
+                top: 20px;
+                vertical-align: middle;
+              }
+              .jiantou{
+                display: none;
+                margin-right: -35px;
+                margin-top:-5px;
+              }
+              ul{
+                display: none;
+                height: 420px;
+                position: fixed;
+                left: 180px;
+                background: rgba(255,255,255,0.9);
+                width: 160px;
+                margin-top: 0;
+                top:0;
+                li{
+                  height: 42px;
+                  line-height: 42px;
+                  color: #fff;
+                  font-size: 16px;
+                  position: relative;
+                  font-weight: bold;
+                  cursor: pointer;
+                  padding-top: 45px;
+                  a{
+                    color: #121212;
+                    vertical-align: middle;
+                    text-align: center;
+                    font-weight: 700;
+                    &:hover{
+                      color: red;
+                    }
+                  }
+                }
+              }
+              &:hover {
+                background-color: #666;
+                img {
+                  display: none;
+                }
+                .jiantou {
+                  display: block;
+                }
+                ul {
+                  display: block;
+                }
+              }
+            }
+          }
+        }
+      }
+
+    }
+    /*内容区*/
+    .content{
+      width: 100%;
+      background-color: #fff;
+      .content_wrap{
+        width: 1200px;
+        margin: 0 auto;
+        padding: 50px 0 20px;
+        clear: both;
+        box-sizing: border-box;
+        //background-color: slateblue;
+        .wrap_main{
+          width: 100%;
+          text-align: center;
+          margin-bottom: 10px;
+          height: 420px;
+          .main_name{
+            width: 100%;
+            color: #3d3838;
+            font-weight: 800;
+            font-size: 31px;
+          }
+          .main_title{
+            font-family: "幼圆";
+            display: block;
+            font-size: 22px;
+            margin-top: 15px;
+            position: relative;
+            a{
+              color: #3d3838;
+              transition: color .5s;
+            }
+            .title_more{
+              position: absolute;
+              font-size: 20px;
+              right:0;
+              span{
+                font-size: 20px;
+                margin-right:-10px;
+              }
+              .icon-zuojiantou{
+                font-size: 16px;
+                padding:0;
+              }
+            }
+          }
+          .main_job{
+            height: 345px;
+            box-sizing: border-box;
+            .job_list{
+              margin-top: 30px;
+              .list_item{
+                position: relative;
+                margin-bottom: 0;
+                .item_wrap{
+                  float: left;
+                  padding: 10px;
+                  width: 230px;
+                  border: 1px solid #eaeaea;
+                  margin: 0 5px;
+                  background: #fff;
+                  cursor: pointer;
+                  height: 345px;
+                  &:hover{
+                    box-shadow: 2px 2px 12px 2px rgba(0, 0, 0, 0.4);
+                    transition: box-shadow 0.6s;
+                  }
+                  img{
+                    width: 210px;
+                    vertical-align: middle;
+                    border: 0;
+                  }
+                  .wrap_name{
+                    font-size: 16px;
+                    padding: 10px 0;
+                    font-weight: 800;
+                    color: #000;
+                    height: 28px;
+                    overflow: hidden;
+                    width: 31%;
+                    white-space: nowrap;
+                    text-overflow: ellipsis;
+                  }
+                  .wrap_infoname{
+                    color: #929292;
+                    padding: 5px 0;
+                    overflow: hidden;
+                    text-overflow: ellipsis;
+                    display: -webkit-box;
+                    -webkit-box-orient: vertical;
+                    word-break: break-all;
+                    font-size: 13px;
+                    line-height: 18px;
+                    height: 50px;
+                  }
+                  .wrap_price{
+
+                    font-size: 14px;
+                    padding: 5px 5px;
+                    font-weight: 600;
+                    height: 20px;
+                    line-height: 20px;
+                    color: #fb474f;
+                    margin-top: 5px;
+                    .price{
+                      font-size: 20px;
+                      font-weight: 600;
+                      line-height: 20px;
+                      color: #fb474f;
+                      margin-left: -40px;
+                    }
+                    .btn{
+                      float: right;
+                      padding: 0;
+                      width: 76px;
+                      height: 24px;
+                      line-height: 22px;
+                      text-align: center;
+                      background: #fb474f;
+                      border-radius: 5px;
+                      color: #fff;
+                      font-size: 14px;
+
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+        .wrap_info{
+          width: 1192px;
+          line-height: 32px;
+          padding: 10px;
+          border: 1px solid #e5e5e5;
+          margin: 46px auto 0;
+          text-align: justify;
+          &>a:hover{
+            color: #ca1403;
+          }
+          a{
+            margin: 0 6px;
+            color: #3d3838;
+            font-size: 15px;
+          }
+          a:first-child{
+            margin-left: 0;
+          }
+
+        }
+      }
+
+    }
+  }
+}

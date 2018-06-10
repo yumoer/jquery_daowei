@@ -1,0 +1,228 @@
+@-moz-keyframes show {
+  from {
+    transform: translateY(-100%) rotateX(90deg);
+  }
+  to {
+    transform: translateY(0) rotateX(0);
+  }
+}
+@-webkit-keyframes show {
+  from {
+    transform: translateY(-100%) rotateX(90deg);
+  }
+  to {
+    transform: translateY(0) rotateX(0);
+  }
+}
+@-o-keyframes show {
+  from {
+    transform: translateY(-100%) rotateX(90deg);
+  }
+  to {
+    transform: translateY(0) rotateX(0);
+  }
+}
+@keyframes show {
+  from {
+    transform: translateY(-100%) rotateX(90deg);
+  }
+  to {
+    transform: translateY(0) rotateX(0);
+  }
+}
+#indexContainer {
+  width: 100%;
+  /*.wrap{
+    position: relative;
+    width: 100%;
+    height: 420px;
+    min-width: 1200px;
+    .wrap_banner{
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      z-index: 0;
+      .banner_list{
+        height: 100%;
+        margin: 0 auto;
+        width: 200px;
+        position: relative;
+        background: #757881;
+        z-index: 100;
+        .list_item{
+          height: 10%;
+          img{
+            width: 85%;
+          }
+        }
+      }
+
+    }
+  }*/
+}
+#indexContainer .header {
+  width: 100%;
+  border-bottom: 1px solid #e5e5e5;
+  background-color: white;
+}
+#indexContainer .header.on {
+  position: fixed;
+  z-index: 9999;
+  top: 0;
+  left: 0;
+  opacity: 0.9;
+  animation: show 1s ease;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.12);
+}
+#indexContainer .header .header_wrap {
+  width: 1200px;
+  height: 70px;
+  margin: 0 auto;
+  padding: 0 15px;
+  box-sizing: border-box;
+}
+#indexContainer .header .header_wrap > .wrap_logo {
+  display: block;
+  margin-left: 15px;
+  float: left;
+}
+#indexContainer .header .header_wrap > .wrap_logo img {
+  margin-top: 8px;
+}
+#indexContainer .header .header_wrap > .wrap_nav {
+  margin-top: 10px;
+  background-color: #fff;
+  margin-left: 0;
+  height: 42px;
+  float: right;
+}
+#indexContainer .header .header_wrap > .wrap_nav .nav_list {
+  margin-left: 50px;
+  /*li:first-child{
+            margin-right: 50px;
+          }
+          .active>a{
+            color: #ca1403;
+          }
+          .list_item{
+            float: left;
+            a{
+              display: inline-block;
+              list-style: none;
+              font-style: normal;
+              padding: 0;
+              margin:15px;
+              box-sizing: border-box;
+              font-weight: 700;
+
+              img{
+                width: 20px;
+                height: auto;
+                vertical-align: middle;
+              }
+              span{
+                color: #000;
+                font-weight: 700;
+                margin-top:-10px;
+              }
+
+            }
+          }
+
+          .active{
+            color: red;
+          }
+          &>.shanghu_login{
+            width: 76px;
+            height: 28px;
+            border-radius: 4px;
+            background: #e94840;
+            margin-top: 8px;
+            margin-left: 20px;
+            .shanghu{
+              color: white;
+              width: 100%;
+              margin-left: 7px;
+              margin-top: 7px;
+            }
+          }
+          &>li{
+            margin: 0;
+            position: relative;
+            display: block;
+            box-sizing: border-box;
+
+          }
+          &>li:hover a{
+            color: #ca1403;
+          }
+          &>li:link a{
+            color: black;
+          }*/
+}
+#indexContainer .header .header_wrap > .wrap_nav .nav_list .list_city {
+  float: left;
+  margin-right: 50px;
+}
+#indexContainer .header .header_wrap > .wrap_nav .nav_list .list_city div img {
+  width: 20px;
+  height: auto;
+  vertical-align: middle;
+}
+#indexContainer .header .header_wrap > .wrap_nav .nav_list .list_city div span {
+  color: #000;
+  font-weight: 700;
+  margin-top: -10px;
+}
+#indexContainer .header .header_wrap > .wrap_nav .nav_list .list_city div a {
+  display: inline-block;
+  list-style: none;
+  font-style: normal;
+  padding: 0;
+  margin: 15px;
+  box-sizing: border-box;
+  font-weight: 700;
+  color: black;
+}
+#indexContainer .header .header_wrap > .wrap_nav .nav_list .list_city div a:hover {
+  color: #ca1403;
+}
+#indexContainer .header .header_wrap > .wrap_nav .nav_list .list_item {
+  float: left;
+}
+#indexContainer .header .header_wrap > .wrap_nav .nav_list .list_item a {
+  display: inline-block;
+  list-style: none;
+  font-style: normal;
+  padding: 0;
+  margin: 15px;
+  box-sizing: border-box;
+  font-weight: 700;
+  color: black;
+}
+#indexContainer .header .header_wrap > .wrap_nav .nav_list .list_item a.active {
+  color: #ca1403 ;
+}
+#indexContainer .header .header_wrap > .wrap_nav .nav_list .list_item a:hover {
+  color: #ca1403;
+}
+#indexContainer .header .header_wrap > .wrap_nav .nav_list .shanghu_login {
+  width: 76px;
+  height: 28px;
+  border-radius: 4px;
+  background: #e94840;
+  margin-top: 8px;
+  margin-left: 20px;
+  float: right;
+  position: relative;
+}
+#indexContainer .header .header_wrap > .wrap_nav .nav_list .shanghu_login .shanghu {
+  color: white;
+  width: 100%;
+  margin-left: 7px;
+  margin-top: 5px;
+  font-weight: bold;
+  position: absolute;
+}
